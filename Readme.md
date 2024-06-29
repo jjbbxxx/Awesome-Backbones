@@ -6,35 +6,18 @@
 
 ## 1	注意事项
 
-1. 首先执行`AwesomeBackbones/tools/get_annotation.py`，因为写入的划分路径为绝对路径（暂未修改好）
+1. 首先执行 `tools/get_annotation.py` ，因为写入的划分路径为绝对路径（暂未修改好）
+1. 使用`python`在cmd中执行
 
 ## 2	目前已完成的训练模型：
 
-- [ ] MobileNet v3
-- [ ] Vision Transformer
+- [x] MobileNet v3, 100 epoches, 64 batch_size
+- [x] Vision Transformer32, 93 epochs, 32batch_size
+- [ ] resnet
+- [ ] vgg
 
-## 2	目前已完成的训练模型：
+## 3	后续工作
 
-- [ ] MobileNet v3
-- [ ] Vision Transformer
+### streamlit
 
-## 2	目前已完成的训练模型：
-
-- [ ] MobileNet v3
-- [ ] Vision Transformer
-
-## 2	目前已完成的训练模型：
-
-- [ ] MobileNet v3
-- [ ] Vision Transformer
-
-## 2	目前已完成的训练模型：
-
-- [ ] MobileNet v3
-- [ ] Vision Transformer
-
-## 2	目前已完成的训练模型：
-
-- [ ] MobileNet v3
-- [ ] Vision Transformer
-
+使用streamlit将项目部署到网页端，方便用户使用。
