@@ -10,7 +10,7 @@ model_cfg = dict(
     neck=dict(type='GlobalAveragePooling'),
     head=dict(
         type='LinearClsHead',
-        num_classes=1000,
+        num_classes=2,
         in_channels=512,
         loss=dict(type='CrossEntropyLoss', loss_weight=1.0),
         topk=(1, 5),))
@@ -158,11 +158,11 @@ val_pipeline = [
 
 # train
 data_cfg = dict(
-    batch_size = 32,
-    num_workers = 4,
+    batch_size = 64,
+    num_workers = 16,
     train = dict(
-        pretrained_flag = False,
-        pretrained_weights = '',
+        pretrained_flag = True,
+        pretrained_weights = 'datas/resnet34_8xb32_in1k_20210831-f257d4e6.pth',
         freeze_flag = False,
         freeze_layers = ('backbone',),
         epoches = 100,
