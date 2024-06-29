@@ -8,3 +8,33 @@
 
 1. 首先执行`AwesomeBackbones/tools/get_annotation.py`，因为写入的划分路径为绝对路径（暂未修改好）
 
+## 2	目前已完成的训练模型：
+
+- [ ] MobileNet v3
+- [ ] Vision Transformer
+
+## 2	目前已完成的训练模型：
+
+- [ ] MobileNet v3
+- [ ] Vision Transformer
+
+## 2	目前已完成的训练模型：
+
+- [ ] MobileNet v3
+- [ ] Vision Transformer
+
+## 2	目前已完成的训练模型：
+
+- [ ] MobileNet v3
+- [ ] Vision Transformer
+
+## 2	目前已完成的训练模型：
+
+- [ ] MobileNet v3
+- [ ] Vision Transformer
+
+## 2	目前已完成的训练模型：
+
+- [ ] MobileNet v3
+- [ ] Vision Transformer
+
