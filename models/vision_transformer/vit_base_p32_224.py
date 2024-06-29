@@ -16,7 +16,7 @@ model_cfg = dict(
     neck=None,
     head=dict(
         type='VisionTransformerClsHead',
-        num_classes=1000,
+        num_classes=2,
         in_channels=768,
         hidden_dim=3072,
         loss=dict(type='CrossEntropyLoss', loss_weight=1.0),
@@ -150,7 +150,7 @@ val_pipeline = [
 # train
 data_cfg = dict(
     batch_size = 32,
-    num_workers = 4,
+    num_workers = 16,
     train = dict(
         pretrained_flag = False,
         pretrained_weights = '',
@@ -159,7 +159,7 @@ data_cfg = dict(
         epoches = 100,
     ),
     test=dict(
-        ckpt = '',
+        ckpt = 'logs/VisionTransformer/2024-06-29-01-43-03/Last_Epoch093.pth',
         metrics = ['accuracy', 'precision', 'recall', 'f1_score', 'confusion'],
         metric_options = dict(
             topk = (1,5),
