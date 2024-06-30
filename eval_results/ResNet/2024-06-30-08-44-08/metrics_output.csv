@@ -1,0 +1,10 @@
+Classes,Precision,Recall,F1 Score,Average Precision
+O,87.13,97.64,92.09,98.04
+R,96.50,81.83,88.56,96.88
+
+Top-1 Acc,Top-5 Acc,Mean Precision,Mean Recall,Mean F1 Score,Average Inference Time (s)
+90.65,100.00,91.82,89.74,90.33,0.070402
+
+ ,O,R
+O,1368,33
+R,202,910

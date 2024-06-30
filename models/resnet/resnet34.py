@@ -168,7 +168,7 @@ data_cfg = dict(
         epoches = 100,
     ),
     test=dict(
-        ckpt = '',
+        ckpt = 'logs/ResNet/2024-06-29-20-20-33/Last_Epoch100.pth',
         metrics = ['accuracy', 'precision', 'recall', 'f1_score', 'confusion'],
         metric_options = dict(
             topk = (1,5),
