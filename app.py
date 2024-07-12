@@ -7,25 +7,25 @@ from torchvision import models, transforms
 from models.build import BuildNet  # 确保这个路径与您的项目结构相匹配
 
 
-def install(package):
-    subprocess.check_call([sys.executable, "-m", "pip", "install", package])
-
-
-# 安装必要的库
-install("scipy==1.10.0")
-install("numpy==1.22.2")
-install("matplotlib==3.4.3")
-install("opencv-python")
-install("opencv-contrib-python")
-install("opencv-python-headless")
-install("albumentations==1.2.1")
-install("tqdm==4.62.3")
-install("Pillow==10.3.0")
-install("h5py==3.1.0")
-install("terminaltables==3.1.0")
-install("packaging==21.3")
-install("torch==2.0.1+cpu")
-install("torchvision==0.15.2+cpu")
+# def install(package):
+#     subprocess.check_call([sys.executable, "-m", "pip", "install", package])
+#
+#
+# # 安装必要的库
+# install("scipy==1.10.0")
+# install("numpy==1.22.2")
+# install("matplotlib==3.4.3")
+# install("opencv-python")
+# install("opencv-contrib-python")
+# install("opencv-python-headless")
+# install("albumentations==1.2.1")
+# install("tqdm==4.62.3")
+# install("Pillow==10.3.0")
+# install("h5py==3.1.0")
+# install("terminaltables==3.1.0")
+# install("packaging==21.3")
+# install("torch==2.0.1+cpu")
+# install("torchvision==0.15.2+cpu")
 
 # 定义模型配置
 model_cfg = dict(
