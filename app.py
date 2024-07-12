@@ -24,6 +24,8 @@ install("Pillow==10.3.0")
 install("h5py==3.1.0")
 install("terminaltables==3.1.0")
 install("packaging==21.3")
+install("torch==2.0.1+cpu")
+install("torchvision==0.15.2+cpu")
 
 # 定义模型配置
 model_cfg = dict(
