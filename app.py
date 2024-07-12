@@ -1,6 +1,19 @@
 import subprocess
 import sys
 import streamlit as st
+
+def install(package):
+    try:
+        subprocess.check_call([sys.executable, "-m", "pip", "install", package])
+    except subprocess.CalledProcessError as e:
+        st.error(f"Failed to install {package}. Error: {str(e)}")
+
+# 安装必要的库
+install("numpy<2")
+install("--upgrade pybind11")
+install("--upgrade torchvision")
+
+
 import torch
 from PIL import Image
 from torchvision import models, transforms
