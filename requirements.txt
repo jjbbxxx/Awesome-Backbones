@@ -1,6 +1,6 @@
-scipy==1.10.0-rc1
+scipy==1.10.0
 numpy==1.22.2
-matplotlib==3.2.1
+matplotlib==3.4.3
 opencv_python
 opencv_contrib_python
 opencv-python-headless
